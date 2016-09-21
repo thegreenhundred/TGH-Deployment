@@ -1,0 +1,25 @@
+WAN Router:
+  - Optipled 755 PFSENSE
+    - WAN Router
+    - Firewall
+    - OpenVPN
+    - DNS Forwarder
+
+Network Storage:
+  - Optiplex 755 
+  - FreeNAS
+  - NFS
+  - FTP
+  - ISCSI
+  
+Hypervisors:
+  - XenServer - Optiplex 755 Core 2 Quad / 8GB RAM
+    - HaProxy (ssl termination & reverse proxy routing)
+    - SSH Gateway
+    - Windows 10 Preview client OS (Delivered via RDP/VNC/NX)
+  - Ubuntu LXC/LXD Host
+    - Primary Workstation Desktop (Delivered via NX/SSH/X2GO)
+    - Media Service Stack (Plex/Couchpotato/Sickrage/Transmission)
+    - SSH Gateway 2.0
+    - Kerberos Server
+    - Spacewalk Server

@@ -1,2 +1,3 @@
-# TGH-Deployment
-Server &amp; Services deployment on TGH Homenet Lab
+TGH-Deployment
+==============
+Server &amp; Services deployment on TGH Homenet & Homelab networks. 
